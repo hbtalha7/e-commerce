@@ -1,0 +1,32 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.row.top{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-areas: "col-1 col-2 col-3";
+    align-items: flex-start;
+  }
+  .col-1{
+    grid-area: col-1;
+  }
+  .col-2{
+    grid-area: col-2;
+  }
+  .col-3{
+    grid-area: col-3;
+  }
+  @media (max-width:768px){      
+    .row.top{
+        display: block;
+      }   
+      img.large{
+          max-width: 15rem;
+          width: 100%;
+          padding: 1rem;
+      }
+      
+  }

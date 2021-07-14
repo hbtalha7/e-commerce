@@ -1,0 +1,65 @@
+.card{
+    border:0.1rem #a4a4a4 solid;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin:1rem;
+    box-shadow: 5px 10px 18px #888888;
+}
+.medium{
+    max-width: 14.5rem;
+    width: 100%;
+}
+.card-body{
+    padding: 1rem;
+  }
+  .card-body > *{
+    margin-bottom: 0.5rem;
+  }
+  .price{
+    font-size: 2rem;
+  }
+  .rating{
+    font-size: 1rem;
+  }
+  .rating span{
+    color: orange ;
+  }
+  .rating span.child{
+    color:black ;
+  }
+  #root{
+    height: 100%;
+  }
+  ul{
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+  }
+  li{
+    margin-top: 
+    1rem;
+  }
+  input,select,textarea,button{
+    padding:1rem;
+    border-radius:0.5rem;
+    border:0.1rem #a4a4a4 solid;
+     font-family: Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  button {
+    background-color: #f8f8f8;
+    cursor: pointer;
+  }
+  input:hover,
+  select:hover,
+  textarea:hover,
+  button:hover {
+    border: 0.1rem #404040 solid;
+  }
+  button.primary{
+    background-color:#f0c040;
+  }
+  button.block{
+    width: 100%;
+  }
